@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.ecran{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/bck.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.carte{
+    margin-bottom: 40px;
+    width: 200%;
+    max-width: 440px;
+    color: #ed3c57;
+    text-align: center;
+    padding: 50px 30px;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    border-color: #ed3c57;
+}
+.info{
+    margin-left: 30px;
+    color: #ed3c57;
+    font-weight: 600;
+}
+.reseau a img {
+    display: flex;
+    flex-direction: column-reverse;
+    bottom: 10px;
+    padding: 20px;
+}
+a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ed3c57;
+}
